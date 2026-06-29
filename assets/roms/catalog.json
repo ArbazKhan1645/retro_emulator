@@ -11,50 +11,10 @@
       "size": 2097152
     },
     {
-      "id": "bundled_173174448",
-      "title": "Aladdin",
-      "folder": "Aladdin (Japan)",
-      "rom": "Aladdin (Japan)/Aladdin (Japan).md",
-      "cover": null,
-      "size": 2097152
-    },
-    {
-      "id": "bundled_659853647",
-      "title": "Aladdin",
-      "folder": "Aladdin (USA)",
-      "rom": "Aladdin (USA)/Aladdin (USA).md",
-      "cover": null,
-      "size": 2097152
-    },
-    {
-      "id": "bundled_200932552",
-      "title": "Aladdin",
-      "folder": "Aladdin (USA) (Beta)",
-      "rom": "Aladdin (USA) (Beta)/Aladdin (USA) (Beta).md",
-      "cover": null,
-      "size": 2097152
-    },
-    {
-      "id": "bundled_331690325",
-      "title": "Bare Knuckle II Shitou e no Requiem ~ Streets of Rage II",
-      "folder": "Bare Knuckle II - Shitou e no Requiem ~ Streets of Rage II (Japan, Europe)",
-      "rom": "Bare Knuckle II - Shitou e no Requiem ~ Streets of Rage II (Japan, Europe)/Bare Knuckle II - Shitou e no Requiem ~ Streets of Rage II (Japan, Europe).md",
-      "cover": null,
-      "size": 2097152
-    },
-    {
       "id": "bundled_546863929",
       "title": "Bare Knuckle Ikari no Tetsuken ~ Streets of Rage",
       "folder": "Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage (World)",
       "rom": "Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage (World)/Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage (World).md",
-      "cover": null,
-      "size": 524288
-    },
-    {
-      "id": "bundled_652212557",
-      "title": "Bare Knuckle Ikari no Tetsuken ~ Streets of Rage",
-      "folder": "Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage (World) (Rev A)",
-      "rom": "Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage (World) (Rev A)/Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage (World) (Rev A).md",
       "cover": null,
       "size": 524288
     },
@@ -67,26 +27,10 @@
       "size": 1048576
     },
     {
-      "id": "bundled_622888101",
-      "title": "Brian Lara Cricket",
-      "folder": "Brian Lara Cricket (Europe) (March 1995)",
-      "rom": "Brian Lara Cricket (Europe) (March 1995)/Brian Lara Cricket (Europe) (March 1995).md",
-      "cover": null,
-      "size": 1048576
-    },
-    {
       "id": "bundled_576335305",
       "title": "Brian Lara Cricket 96",
       "folder": "Brian Lara Cricket 96 (Europe) (April 1996)",
       "rom": "Brian Lara Cricket 96 (Europe) (April 1996)/Brian Lara Cricket 96 (Europe) (April 1996).md",
-      "cover": null,
-      "size": 1048576
-    },
-    {
-      "id": "bundled_909958204",
-      "title": "Brian Lara Cricket 96",
-      "folder": "Brian Lara Cricket 96 (Europe) (March 1996)",
-      "rom": "Brian Lara Cricket 96 (Europe) (March 1996)/Brian Lara Cricket 96 (Europe) (March 1996).md",
       "cover": null,
       "size": 1048576
     },
@@ -99,26 +43,10 @@
       "size": 2097152
     },
     {
-      "id": "bundled_623480893",
-      "title": "FIFA International Soccer",
-      "folder": "FIFA International Soccer (Japan) (En,Ja)",
-      "rom": "FIFA International Soccer (Japan) (En,Ja)/FIFA International Soccer (Japan) (En,Ja).md",
-      "cover": null,
-      "size": 2097152
-    },
-    {
       "id": "bundled_59042808",
       "title": "FIFA International Soccer",
       "folder": "FIFA International Soccer (USA, Europe) (En,Fr,De,Es)",
       "rom": "FIFA International Soccer (USA, Europe) (En,Fr,De,Es)/FIFA International Soccer (USA, Europe) (En,Fr,De,Es).md",
-      "cover": null,
-      "size": 2097152
-    },
-    {
-      "id": "bundled_488494306",
-      "title": "FIFA Soccer 95",
-      "folder": "FIFA Soccer 95 (Korea) (En,Fr,De,Es)",
-      "rom": "FIFA Soccer 95 (Korea) (En,Fr,De,Es)/FIFA Soccer 95 (Korea) (En,Fr,De,Es).md",
       "cover": null,
       "size": 2097152
     },
@@ -179,114 +107,10 @@
       "size": 1048576
     },
     {
-      "id": "bundled_991189701",
-      "title": "Sonic & Knuckles",
-      "folder": "Sonic & Knuckles (World)",
-      "rom": "Sonic & Knuckles (World)/Sonic & Knuckles (World).md",
-      "cover": null,
-      "size": 2097152
-    },
-    {
-      "id": "bundled_456817579",
-      "title": "Sonic & Knuckles + Sonic The Hedgehog",
-      "folder": "Sonic & Knuckles + Sonic The Hedgehog (World)",
-      "rom": "Sonic & Knuckles + Sonic The Hedgehog (World)/Sonic & Knuckles + Sonic The Hedgehog (World).md",
-      "cover": null,
-      "size": 2621440
-    },
-    {
-      "id": "bundled_590826603",
-      "title": "Sonic & Knuckles + Sonic The Hedgehog 2",
-      "folder": "Sonic & Knuckles + Sonic The Hedgehog 2 (World)",
-      "rom": "Sonic & Knuckles + Sonic The Hedgehog 2 (World)/Sonic & Knuckles + Sonic The Hedgehog 2 (World).md",
-      "cover": null,
-      "size": 3407872
-    },
-    {
-      "id": "bundled_732059968",
-      "title": "Sonic & Knuckles + Sonic The Hedgehog 3",
-      "folder": "Sonic & Knuckles + Sonic The Hedgehog 3 (World)",
-      "rom": "Sonic & Knuckles + Sonic The Hedgehog 3 (World)/Sonic & Knuckles + Sonic The Hedgehog 3 (World).md",
-      "cover": null,
-      "size": 4194304
-    },
-    {
-      "id": "bundled_85445428",
-      "title": "Sonic 3D Blast",
-      "folder": "Sonic 3D Blast (USA) (Beta)",
-      "rom": "Sonic 3D Blast (USA) (Beta)/Sonic 3D Blast (USA) (Beta).md",
-      "cover": null,
-      "size": 4194304
-    },
-    {
-      "id": "bundled_658519751",
-      "title": "Sonic 3D Blast ~ Sonic 3D Flickies' Island",
-      "folder": "Sonic 3D Blast ~ Sonic 3D Flickies' Island (USA, Europe)",
-      "rom": "Sonic 3D Blast ~ Sonic 3D Flickies' Island (USA, Europe)/Sonic 3D Blast ~ Sonic 3D Flickies' Island (USA, Europe).md",
-      "cover": null,
-      "size": 4194304
-    },
-    {
-      "id": "bundled_995457736",
-      "title": "Sonic Compilation",
-      "folder": "Sonic Compilation (Europe)",
-      "rom": "Sonic Compilation (Europe)/Sonic Compilation (Europe).md",
-      "cover": null,
-      "size": 3145728
-    },
-    {
-      "id": "bundled_396344752",
-      "title": "Sonic Compilation ~ Sonic Classics",
-      "folder": "Sonic Compilation ~ Sonic Classics (World) (v1.1)",
-      "rom": "Sonic Compilation ~ Sonic Classics (World) (v1.1)/Sonic Compilation ~ Sonic Classics (World) (v1.1).md",
-      "cover": null,
-      "size": 3145728
-    },
-    {
-      "id": "bundled_978263640",
-      "title": "Sonic Crackers",
-      "folder": "Sonic Crackers (Japan) (Proto)",
-      "rom": "Sonic Crackers (Japan) (Proto)/Sonic Crackers (Japan) (Proto).md",
-      "cover": null,
-      "size": 1048576
-    },
-    {
-      "id": "bundled_1023112465",
-      "title": "Sonic Eraser",
-      "folder": "Sonic Eraser (Japan) (SegaNet)",
-      "rom": "Sonic Eraser (Japan) (SegaNet)/Sonic Eraser (Japan) (SegaNet).md",
-      "cover": null,
-      "size": 262144
-    },
-    {
-      "id": "bundled_353959775",
-      "title": "Sonic Spinball",
-      "folder": "Sonic Spinball (Japan)",
-      "rom": "Sonic Spinball (Japan)/Sonic Spinball (Japan).md",
-      "cover": null,
-      "size": 1048576
-    },
-    {
-      "id": "bundled_554536683",
-      "title": "Sonic The Hedgehog",
-      "folder": "Sonic The Hedgehog (Japan, Korea)",
-      "rom": "Sonic The Hedgehog (Japan, Korea)/Sonic The Hedgehog (Japan, Korea).md",
-      "cover": null,
-      "size": 524288
-    },
-    {
       "id": "bundled_882545650",
       "title": "Sonic The Hedgehog",
       "folder": "Sonic The Hedgehog (USA, Europe)",
       "rom": "Sonic The Hedgehog (USA, Europe)/Sonic The Hedgehog (USA, Europe).md",
-      "cover": null,
-      "size": 524288
-    },
-    {
-      "id": "bundled_511285783",
-      "title": "Sonic The Hedgehog",
-      "folder": "Sonic The Hedgehog (World) (GameCube Edition)",
-      "rom": "Sonic The Hedgehog (World) (GameCube Edition)/Sonic The Hedgehog (World) (GameCube Edition).md",
       "cover": null,
       "size": 524288
     },
@@ -299,50 +123,10 @@
       "size": 1048576
     },
     {
-      "id": "bundled_996489117",
-      "title": "Sonic The Hedgehog 2",
-      "folder": "Sonic The Hedgehog 2 (World) (Beta 1)",
-      "rom": "Sonic The Hedgehog 2 (World) (Beta 1)/Sonic The Hedgehog 2 (World) (Beta 1).md",
-      "cover": null,
-      "size": 1048576
-    },
-    {
-      "id": "bundled_440584117",
-      "title": "Sonic The Hedgehog 2",
-      "folder": "Sonic The Hedgehog 2 (World) (Rev A)",
-      "rom": "Sonic The Hedgehog 2 (World) (Rev A)/Sonic The Hedgehog 2 (World) (Rev A).md",
-      "cover": null,
-      "size": 1048576
-    },
-    {
-      "id": "bundled_113232901",
-      "title": "Sonic The Hedgehog 2",
-      "folder": "Sonic The Hedgehog 2 (World) (Beta 2)",
-      "rom": "Sonic The Hedgehog 2 (World) (Beta 2)/Sonic The Hedgehog 2 (World) (Beta 2).md",
-      "cover": null,
-      "size": 1048576
-    },
-    {
       "id": "bundled_567928596",
       "title": "Sonic The Hedgehog 3",
       "folder": "Sonic The Hedgehog 3 (Europe)",
       "rom": "Sonic The Hedgehog 3 (Europe)/Sonic The Hedgehog 3 (Europe).md",
-      "cover": null,
-      "size": 2097152
-    },
-    {
-      "id": "bundled_976112668",
-      "title": "Sonic The Hedgehog 3",
-      "folder": "Sonic The Hedgehog 3 (Japan, Korea)",
-      "rom": "Sonic The Hedgehog 3 (Japan, Korea)/Sonic The Hedgehog 3 (Japan, Korea).md",
-      "cover": null,
-      "size": 2097152
-    },
-    {
-      "id": "bundled_214151613",
-      "title": "Sonic The Hedgehog 3",
-      "folder": "Sonic The Hedgehog 3 (USA)",
-      "rom": "Sonic The Hedgehog 3 (USA)/Sonic The Hedgehog 3 (USA).md",
       "cover": null,
       "size": 2097152
     },
@@ -355,38 +139,6 @@
       "size": 1048576
     },
     {
-      "id": "bundled_941818434",
-      "title": "Sonic The Hedgehog Spinball",
-      "folder": "Sonic The Hedgehog Spinball (USA)",
-      "rom": "Sonic The Hedgehog Spinball (USA)/Sonic The Hedgehog Spinball (USA).md",
-      "cover": null,
-      "size": 1048576
-    },
-    {
-      "id": "bundled_878872860",
-      "title": "Sonic The Hedgehog Spinball",
-      "folder": "Sonic The Hedgehog Spinball (USA) (Alt 1)",
-      "rom": "Sonic The Hedgehog Spinball (USA) (Alt 1)/Sonic The Hedgehog Spinball (USA) (Alt 1).md",
-      "cover": null,
-      "size": 1048576
-    },
-    {
-      "id": "bundled_284879732",
-      "title": "Sonic The Hedgehog Spinball",
-      "folder": "Sonic The Hedgehog Spinball (USA) (Beta)",
-      "rom": "Sonic The Hedgehog Spinball (USA) (Beta)/Sonic The Hedgehog Spinball (USA) (Beta).md",
-      "cover": null,
-      "size": 1310720
-    },
-    {
-      "id": "bundled_759740534",
-      "title": "Street Fighter II' Plus Champion Edition",
-      "folder": "Street Fighter II' Plus - Champion Edition (Asia)",
-      "rom": "Street Fighter II' Plus - Champion Edition (Asia)/Street Fighter II' Plus - Champion Edition (Asia).md",
-      "cover": null,
-      "size": 3145728
-    },
-    {
       "id": "bundled_460024507",
       "title": "Street Fighter II' Special Champion Edition",
       "folder": "Street Fighter II' - Special Champion Edition (Europe)",
@@ -395,10 +147,10 @@
       "size": 3145728
     },
     {
-      "id": "bundled_348408516",
-      "title": "Street Fighter II' Special Champion Edition",
-      "folder": "Street Fighter II' - Special Champion Edition (USA)",
-      "rom": "Street Fighter II' - Special Champion Edition (USA)/Street Fighter II' - Special Champion Edition (USA).md",
+      "id": "bundled_759740534",
+      "title": "Street Fighter II' Plus Champion Edition",
+      "folder": "Street Fighter II' Plus - Champion Edition (Asia)",
+      "rom": "Street Fighter II' Plus - Champion Edition (Asia)/Street Fighter II' Plus - Champion Edition (Asia).md",
       "cover": null,
       "size": 3145728
     },
@@ -427,14 +179,6 @@
       "size": 2097152
     },
     {
-      "id": "bundled_336474042",
-      "title": "Streets of Rage 3",
-      "folder": "Streets of Rage 3 (Asia)",
-      "rom": "Streets of Rage 3 (Asia)/Streets of Rage 3 (Asia).md",
-      "cover": null,
-      "size": 3145728
-    },
-    {
       "id": "bundled_605656491",
       "title": "Streets of Rage 3",
       "folder": "Streets of Rage 3 (Europe)",
@@ -443,26 +187,10 @@
       "size": 3145728
     },
     {
-      "id": "bundled_1007331650",
-      "title": "Streets of Rage 3",
-      "folder": "Streets of Rage 3 (USA)",
-      "rom": "Streets of Rage 3 (USA)/Streets of Rage 3 (USA).md",
-      "cover": null,
-      "size": 3145728
-    },
-    {
       "id": "bundled_796538659",
       "title": "Super Street Fighter II",
       "folder": "Super Street Fighter II (Europe)",
       "rom": "Super Street Fighter II (Europe)/Super Street Fighter II (Europe).md",
-      "cover": null,
-      "size": 5242880
-    },
-    {
-      "id": "bundled_654084905",
-      "title": "Super Street Fighter II",
-      "folder": "Super Street Fighter II (USA)",
-      "rom": "Super Street Fighter II (USA)/Super Street Fighter II (USA).md",
       "cover": null,
       "size": 5242880
     },
