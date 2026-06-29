@@ -1,0 +1,93 @@
+name: retro_emulator
+description: "Retro Metro — Play Classic Sega Genesis Games Beautifully."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+
+  # Animations
+  flutter_animate: ^4.5.2
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+
+  # Images
+  cached_network_image: ^3.4.1
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^14.2.7
+
+  # Network
+  dio: ^5.4.3+1
+
+  # Storage & File
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  file_picker: ^8.0.6
+  ffi: ^2.1.2
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  windows:
+    generate: true
+  image_path: assets/images/app_icon.png
+  adaptive_icon_background: "#0C1018"
+  adaptive_icon_foreground: assets/images/app_icon.png
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/cores/
+    # ROM_ASSETS_BEGIN (dart run tool/sync_rom_assets.dart)
+    - assets/roms/catalog.json
+    - assets/roms/Aladdin (Europe)/
+    - assets/roms/Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage (World)/
+    - assets/roms/Brian Lara Cricket (Europe) (June 1995)/
+    - assets/roms/Brian Lara Cricket 96 (Europe) (April 1996)/
+    - assets/roms/FIFA 98 - Road to World Cup (Europe) (En,Fr,Es,It,Sv)/
+    - assets/roms/FIFA International Soccer (USA, Europe) (En,Fr,De,Es)/
+    - assets/roms/FIFA Soccer 95 (USA, Europe) (En,Fr,De,Es)/
+    - assets/roms/FIFA Soccer 96 (USA, Europe) (En,Fr,De,Es,It,Sv)/
+    - assets/roms/FIFA Soccer 97 (USA, Europe) (En,Fr,De,Es,It,Sv)/
+    - assets/roms/Rolo to the Rescue (USA, Europe)/
+    - assets/roms/Sesame Street Counting Cafe (USA)/
+    - assets/roms/Shane Warne Cricket (Australia)/
+    - assets/roms/Snow Bros. - Nick & Tom (Japan)/
+    - assets/roms/Sonic The Hedgehog (USA, Europe)/
+    - assets/roms/Sonic The Hedgehog 2 (World)/
+    - assets/roms/Sonic The Hedgehog 3 (Europe)/
+    - assets/roms/Sonic The Hedgehog Spinball (Europe)/
+    - assets/roms/Street Fighter II' - Special Champion Edition (Europe)/
+    - assets/roms/Street Fighter II' Plus - Champion Edition (Asia)/
+    - assets/roms/Street Racer (Europe)/
+    - assets/roms/Street Smart (Japan, USA)/
+    - assets/roms/Streets of Rage 2 (USA)/
+    - assets/roms/Streets of Rage 3 (Europe)/
+    - assets/roms/Super Street Fighter II (Europe)/
+    - assets/roms/Super Street Fighter II - The New Challengers (Japan)/
+    # ROM_ASSETS_END
+    - assets/covers/
