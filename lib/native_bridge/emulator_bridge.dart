@@ -1,16 +1,18 @@
 import 'dart:async';
 import 'dart:ffi' as ffi;
 import 'dart:io';
+import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart' as p;
 import 'package:ffi/ffi.dart';
+import 'package:mp_audio_stream/mp_audio_stream.dart';
 import 'libretro_ffi.dart';
 import 'dart:ui' as ui;
 
 // ============================================================
-// Global Emulation Frame & Input Buffer
+// Global Emulation Frame, Input & Audio Buffer
 // ============================================================
 
 int latestWidth = 320;
@@ -21,6 +23,10 @@ int activePixelFormat = 2; // 0 = 0RGB1555, 1 = XRGB8888, 2 = RGB565
 
 // Standard Libretro button map
 final Map<int, bool> pressedButtons = {};
+
+// Global Audio Stream and Volume controls
+AudioStream? globalAudioStream;
+double globalVolume = 0.8;
 
 // ============================================================
 // Top-Level Static FFI Callback Functions
@@ -53,9 +59,36 @@ void videoRefreshCallback(
   latestFrameBytes = Uint8List.fromList(view);
 }
 
-void audioSampleCallback(int left, int right) {}
+void audioSampleCallback(int left, int right) {
+  try {
+    final float32 = Float32List(2);
+    final vol = globalVolume;
+    float32[0] = (left / 32768.0) * vol;
+    float32[1] = (right / 32768.0) * vol;
+    if (globalAudioStream != null) {
+      globalAudioStream!.push(float32);
+    }
+  } catch (_) {}
+}
 
 int audioSampleBatchCallback(ffi.Pointer<ffi.Int16> data, int frames) {
+  if (data == ffi.Pointer.fromAddress(0) || frames <= 0) return frames;
+  
+  try {
+    final samplesCount = frames * 2;
+    final pcm16 = data.asTypedList(samplesCount);
+    final float32 = Float32List(samplesCount);
+    final vol = globalVolume;
+    
+    for (var i = 0; i < samplesCount; i++) {
+      float32[i] = (pcm16[i] / 32768.0) * vol;
+    }
+    
+    if (globalAudioStream != null) {
+      globalAudioStream!.push(float32);
+    }
+  } catch (_) {}
+  
   return frames;
 }
 
@@ -214,6 +247,22 @@ class EmulatorBridge {
 
         _isNativeInitialized = true;
         debugPrint('Libretro emulation core initialized and running.');
+        
+        // Initialize the audio stream
+        try {
+          globalAudioStream?.uninit();
+          globalAudioStream = getAudioStream();
+          globalAudioStream!.init(
+            channels: 2,
+            sampleRate: 44100,
+            bufferMilliSec: 150,
+            waitingBufferMilliSec: 40,
+          );
+          globalAudioStream!.resume();
+          debugPrint('Audio stream initialized successfully.');
+        } catch (audioErr) {
+          debugPrint('Failed to initialize audio stream: $audioErr');
+        }
       } catch (err) {
         debugPrint(
             'Failed to initialize native core FFI sequence: $err. Bypassing to mock surface.');
@@ -268,6 +317,16 @@ class EmulatorBridge {
       _ffi!.retro_unload_game();
       _ffi!.retro_deinit();
       _isNativeInitialized = false;
+    }
+
+    // Uninitialize audio stream
+    if (globalAudioStream != null) {
+      try {
+        globalAudioStream!.uninit();
+        globalAudioStream = null;
+      } catch (e) {
+        debugPrint('Error uninitializing audio stream: $e');
+      }
     }
 
     // Clean up FFI allocations
@@ -520,7 +579,8 @@ class EmulatorBridge {
 
   /// Set audio volume output (0.0 to 1.0)
   void setVolume(double volume) {
-    debugPrint('Set volume: $volume');
+    globalVolume = volume.clamp(0.0, 1.0);
+    debugPrint('Set volume: $globalVolume');
   }
 
   /// Maps inputs dynamically to pressed buttons map

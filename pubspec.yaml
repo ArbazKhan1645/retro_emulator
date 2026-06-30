@@ -39,6 +39,7 @@ dependencies:
   file_picker: ^8.0.6
   ffi: ^2.1.2
   url_launcher: ^6.3.2
+  mp_audio_stream: ^0.2.2
 
 dev_dependencies:
   flutter_test:
